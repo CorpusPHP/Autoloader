@@ -1,0 +1,14 @@
+{
+	"name": "corpus/autoloader",
+	"description": "PSR-0 and PSR-4 Style Autoloaders",
+	"license": "MIT",
+	"authors": [{
+		"name": "Jesse Donat",
+		"email": "donatj@gmail.com"
+	}],
+	"autoload": {
+		"psr-4": {
+			"Corpus\\Autoloader\\": "src/"
+		}
+	}
+}
